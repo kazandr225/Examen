@@ -5,6 +5,15 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen", "Examen\Examen.csproj", "{1A83526F-40E3-4210-990E-9DF607C6D304}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{5CAE24F5-EB37-408C-8868-6CB4E53DA0E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{D04753CD-FA93-4DEE-95B1-A72D4178583C}"
+	ProjectSection(SolutionItems) = preProject
+		Examen\bin\Debug\data.txt = Examen\bin\Debug\data.txt
+		Диаграммы.docx = Диаграммы.docx
+		Математическая модель.docx = Математическая модель.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +24,10 @@ Global
 		{1A83526F-40E3-4210-990E-9DF607C6D304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A83526F-40E3-4210-990E-9DF607C6D304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A83526F-40E3-4210-990E-9DF607C6D304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CAE24F5-EB37-408C-8868-6CB4E53DA0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAE24F5-EB37-408C-8868-6CB4E53DA0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAE24F5-EB37-408C-8868-6CB4E53DA0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAE24F5-EB37-408C-8868-6CB4E53DA0E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
